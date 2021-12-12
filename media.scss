@@ -1,0 +1,600 @@
+@media (max-width: 1024px) {
+  .container{
+    width: 924px;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 240px;
+
+    }
+
+    to {
+      margin-left: -243px;
+
+    }
+
+  }
+  #header{
+    .header{
+      &__nav{
+        margin-left: -50px;
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &__title{
+        font-size: 50px;
+      }
+      &__sbtl{
+        font-size: 20px;
+      }
+      &__button{
+        &--btn{
+          font-size: 16px;
+        }
+      }
+      &__link{
+        font-size: 10px;
+      }
+      &__imgs{
+        &--img{
+          width: 700px;
+        }
+        &--img2{
+          width: 217px;
+        }
+      }
+    }
+  }
+  #shoot{
+
+    .shoot{
+      padding-top: 130px;
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+      }
+      &__img{
+        width: 425px;
+      }
+      &__img2{
+        width: 229px;
+      }
+    }
+  }
+  #enrich{
+    .enrich{
+      &__img{
+        width: 400px;
+      }
+      &__img2{
+        width: 376px;
+        margin-left: -395px;
+      }
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+      }
+    }
+  }
+  #add{
+    .add{
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+        line-height: 30px;
+      }
+      &__img {
+        width: 400px;
+      }
+    }
+  }
+  #share{
+    .share{
+      &__img{
+        width: 400px;
+      }
+      &__img2{
+        margin-left: -383px;
+        width: 370px;
+      }
+      &__title{
+
+      }
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+        margin-top: -30px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+        line-height: 30px;
+      }
+    }
+  }
+  #coach{
+    .coach{
+      &__title{
+        font-size: 36px;
+        padding-bottom: 10px;
+      }
+      &__line{
+        width: 84px;
+        height: 2px;
+      }
+      &__sbtl{
+        padding-top: 24px;
+        font-size: 11px;
+      }
+      &__cards{
+        &--img{
+          width: 160px;
+        }
+        &--title {
+          margin-top: -123px;
+          margin-left: 8px;
+          font-size: 14px;
+          line-height: 21px;
+          width: 154px;
+        }
+        &--sbtl{
+          margin-left: 27px;
+          width: 114px;
+          margin-top: -78px;
+          font-size: 11px;
+          line-height: 24px
+        }
+      }
+      &__crad{
+        margin: 0 30px;
+
+      }
+    }
+  }
+  #offer{
+    .offer{
+      &__upttl{
+        font-size: 16px;
+        padding-bottom: 7px;
+      }
+      &__ttl{
+
+        padding-bottom: 30px;
+        .offer__title{
+          width: 650px;
+          font-weight: normal;
+          font-size: 44px;
+          line-height: 58px;
+        }
+      }
+      &__sbtl{
+        .offer__subtitle{
+          font-size: 21px;
+          line-height: 30px;
+          width: 711px;
+        }
+      }
+      &__image{
+        &__img{
+          width: 790px;
+        }
+      }
+    }
+  }
+  #teach{
+    .teach{
+      &__wpc{
+        Width: 783px;
+        Height: 357px;
+        &__title{
+          padding-top: 22px;
+          font-size: 44px;
+          padding-bottom: 9px;
+        }
+        &__subtitle{
+          font-size: 21px;
+        }
+        &__button{
+          &__btn{
+            font-size: 16px;
+            line-height: 26px;
+            width: 187px;
+            height: 49px;
+          }
+        }
+      }
+    }
+  }
+  #can{
+    min-height: 41vh;
+    .can{
+      &__sbtl{
+        &__subtitle{
+          padding-top: 80px;
+        }
+      }
+    }
+  }
+  #feat{
+    .feat{
+      &__title{
+        font-size: 41px;
+      }
+      &__card{
+        width: 428px;
+        height: 352px;
+        margin: 0 20px;
+       &__img{
+         width: 194px;
+       }
+        &__text{
+          margin-left: 242px;
+          width: 167px;
+          margin-top: -313px;
+          &__title{
+            width: 198px;
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 11px;
+          }
+          &__subtitle{
+            font-size: 10px;
+            line-height: 13px;
+            padding-bottom: 110px;
+
+          }
+          &__link{
+            font-size: 15px;
+            margin-left: 65px;
+          }
+          }
+          }
+        }
+      }
+  #footer{
+    .footer{
+      &__logo{
+        width: 150px;
+      }
+      &__title{
+        font-size: 13px;
+        padding-bottom: 15px;
+      }
+      &__item{
+        font-size: 11px;
+        line-height: 20px;
+      }
+    }
+  }
+    }
+
+  
+
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+ .container{width: 710px;}
+  .burger{display: block;
+  margin-top: 34px;}
+  #header{
+    .header{
+      &__nav, &__items2 {
+        display: none;
+      }
+    }
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 196px;
+
+    }
+
+    to {
+      margin-left: -193px;
+
+    }
+
+  }
+  #hero{
+    .hero{
+      &__title{
+        font-size: 30px;
+      }
+      &__sbtl{
+        font-size: 15px;
+      }
+      &__button{
+        &--btn{
+          font-size: 12px;
+          padding: 2px 12px;
+        }
+      }
+      &__link{
+        font-size: 7px;
+      }
+      &__imgs{
+        &--img{
+          width: 554px;
+        }
+        &--img2{
+          width: 170px;
+        }
+      }
+    }
+  }
+  #shoot{
+
+    .shoot{
+      padding-top: 130px;
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+      }
+      &__img{
+        width: 425px;
+      }
+      &__img2{
+        width: 229px;
+      }
+    }
+  }
+  #enrich{
+    .enrich{
+      &__img{
+        width: 400px;
+      }
+      &__img2{
+        width: 376px;
+        margin-left: -395px;
+      }
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+      }
+    }
+  }
+  #add{
+    .add{
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+        line-height: 30px;
+      }
+      &__img {
+        width: 400px;
+      }
+    }
+  }
+  #share{
+    .share{
+      &__img{
+        width: 400px;
+      }
+      &__img2{
+        margin-left: -383px;
+        width: 370px;
+      }
+      &__title{
+
+      }
+      &__title{
+        font-size: 40px;
+        line-height: 52px;
+        padding-bottom: 14px;
+        width: 375px;
+        margin-top: -30px;
+      }
+      &__sbtl{
+        width: 316px;
+        font-size: 19px;
+        line-height: 30px;
+      }
+    }
+  }
+  #coach{
+    .coach{
+      &__title{
+        font-size: 36px;
+        padding-bottom: 10px;
+      }
+      &__line{
+        width: 84px;
+        height: 2px;
+      }
+      &__sbtl{
+        padding-top: 24px;
+        font-size: 11px;
+      }
+      &__cards{
+        &--img{
+          width: 160px;
+        }
+        &--title {
+          margin-top: -123px;
+          margin-left: 8px;
+          font-size: 14px;
+          line-height: 21px;
+          width: 154px;
+        }
+        &--sbtl{
+          margin-left: 27px;
+          width: 114px;
+          margin-top: -78px;
+          font-size: 11px;
+          line-height: 24px
+        }
+      }
+      &__crad{
+        margin: 0 30px;
+
+      }
+    }
+  }
+  #offer{
+    .offer{
+      &__upttl{
+        font-size: 16px;
+        padding-bottom: 7px;
+      }
+      &__ttl{
+
+        padding-bottom: 30px;
+        .offer__title{
+          width: 650px;
+          font-weight: normal;
+          font-size: 44px;
+          line-height: 58px;
+        }
+      }
+      &__sbtl{
+        .offer__subtitle{
+          font-size: 21px;
+          line-height: 30px;
+          width: 711px;
+        }
+      }
+      &__image{
+        &__img{
+          width: 790px;
+        }
+      }
+    }
+  }
+  #teach{
+    .teach{
+      &__wpc{
+        Width: 783px;
+        Height: 357px;
+        &__title{
+          padding-top: 22px;
+          font-size: 44px;
+          padding-bottom: 9px;
+        }
+        &__subtitle{
+          font-size: 21px;
+        }
+        &__button{
+          &__btn{
+            font-size: 16px;
+            line-height: 26px;
+            width: 187px;
+            height: 49px;
+          }
+        }
+      }
+    }
+  }
+  #can{
+    min-height: 41vh;
+    .can{
+      &__sbtl{
+        &__subtitle{
+          padding-top: 80px;
+        }
+      }
+    }
+  }
+  #feat{
+    .feat{
+      &__title{
+        font-size: 41px;
+      }
+      &__card{
+        width: 428px;
+        height: 352px;
+        margin: 0 20px;
+        &__img{
+          width: 194px;
+        }
+        &__text{
+          margin-left: 242px;
+          width: 167px;
+          margin-top: -313px;
+          &__title{
+            width: 198px;
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 11px;
+          }
+          &__subtitle{
+            font-size: 10px;
+            line-height: 13px;
+            padding-bottom: 110px;
+
+          }
+          &__link{
+            font-size: 15px;
+            margin-left: 65px;
+          }
+        }
+      }
+    }
+  }
+  #footer{
+    .footer{
+      &__logo{
+        width: 150px;
+      }
+      &__title{
+        font-size: 13px;
+        padding-bottom: 15px;
+      }
+      &__item{
+        font-size: 11px;
+        line-height: 20px;
+      }
+    }
+  }
+
+}
+@media (max-width: 577px) {
+
+}
+@media (max-width: 414px) {
+
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+
+}
