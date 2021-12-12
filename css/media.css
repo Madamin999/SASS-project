@@ -253,6 +253,12 @@
       margin-left: -193px;
     }
   }
+  .col-md-12 {
+    margin-left: 184px;
+    width: 100%;
+    padding: 33px 0;
+  }
+
   #hero .hero__title {
     font-size: 30px;
   }
